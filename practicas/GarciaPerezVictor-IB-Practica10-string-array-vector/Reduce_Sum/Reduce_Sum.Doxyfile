@@ -1,0 +1,5 @@
+# Doxyfile 
+PROJECT_NAME = "Reduce_Sum" 
+OUTPUT_DIRECTORY = "build" 
+INPUT = "src" 
+RECURSIVE = YES 

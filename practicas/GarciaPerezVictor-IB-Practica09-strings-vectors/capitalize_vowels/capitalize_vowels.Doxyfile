@@ -1,0 +1,5 @@
+# Doxyfile 
+PROJECT_NAME = "capitalize_vowels" 
+OUTPUT_DIRECTORY = "build" 
+INPUT = "src" 
+RECURSIVE = YES 

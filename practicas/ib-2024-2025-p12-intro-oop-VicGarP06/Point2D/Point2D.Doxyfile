@@ -1,0 +1,5 @@
+# Doxyfile 
+PROJECT_NAME = "Point2D" 
+OUTPUT_DIRECTORY = "build" 
+INPUT = "src" 
+RECURSIVE = YES 

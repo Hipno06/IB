@@ -1,0 +1,5 @@
+# Doxyfile 
+PROJECT_NAME = "polynomial" 
+OUTPUT_DIRECTORY = "build" 
+INPUT = "src" 
+RECURSIVE = YES 

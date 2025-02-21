@@ -1,0 +1,5 @@
+# Doxyfile 
+PROJECT_NAME = "aproximate_root" 
+OUTPUT_DIRECTORY = "build" 
+INPUT = "src" 
+RECURSIVE = YES 
