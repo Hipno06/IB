@@ -13,10 +13,6 @@ class Rey {
   Rey() {}
   // Constructor por parámetros
   Rey(const std::string& nombre, const int& comienzo, const int& fin) {
-    if (comienzo > fin) {
-      std::cerr << "Error: "<< nombre << " no puede finalizar su reinado antes de comenzarlo\n";
-      return;
-    }
     nombre_ = nombre;
     comienzo_ = comienzo;
     fin_ = fin;
@@ -52,9 +48,6 @@ class Rey {
     is >> other.comienzo_;
     std::cout << "Fin: ";
     is >> other.fin_;
-    if (other.comienzo_ > other.fin_) {
-      std::cerr << "Error: un reinado no puede finalizar antes de comenzar\n";
-    }
 
     return is;
   }
